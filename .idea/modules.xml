@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Hoc_Sau_BTL.iml" filepath="$PROJECT_DIR$/.idea/Hoc_Sau_BTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/plant_diseases_resnet50.iml" filepath="$PROJECT_DIR$/.idea/plant_diseases_resnet50.iml" />
     </modules>
   </component>
 </project>
