@@ -65,7 +65,8 @@ goc_plant_village/
 plant_leaves_binary_224/
 plant_leaves_new/
 
-models/
 *.keras
 *.h5
-*.pt
+
+/.idea
+results.txt
