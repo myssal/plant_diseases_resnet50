@@ -1,0 +1,10 @@
+Phát hiện bệnh: F:\Mon Hoc\ki 8\HS\Hoc_Sau_BTL\test_image\jjjj.jpg - Độ tự tin: 100.00%
+Phát hiện LỖI: F:\Mon Hoc\ki 8\HS\Hoc_Sau_BTL\test_image\image_test_1.JPG - Tự tin: 89.10%
+Phát hiện LỖI: F:\Mon Hoc\ki 8\HS\Hoc_Sau_BTL\test_image\image_test_2.png - Tự tin: 99.37%
+Phát hiện LỖI: F:\Mon Hoc\ki 8\HS\Hoc_Sau_BTL\test_image\image_test_3.png - Tự tin: 99.88%
+Khỏe mạnh: F:\Mon Hoc\ki 8\HS\Hoc_Sau_BTL\test_image\image_test_4.JPG - Tự tin: 98.78%
+Phát hiện LỖI: F:\Mon Hoc\ki 8\HS\Hoc_Sau_BTL\test_image\image_test_5.JPG - Tự tin: 90.48%
+Phát hiện LỖI: F:\Mon Hoc\ki 8\HS\Hoc_Sau_BTL\test_image\image_test_5.JPG - Tự tin: 77.14%
+Phát hiện LỖI: F:\Mon Hoc\ki 8\HS\Hoc_Sau_BTL\test_image\image_test_2.png - Tự tin: 97.39%
+Khỏe mạnh: F:\Mon Hoc\ki 8\HS\Hoc_Sau_BTL\test_image\image_test_4.JPG - Tự tin: 99.42%
+Khỏe mạnh: F:\Mon Hoc\ki 8\HS\Hoc_Sau_BTL\test_image\image_test_4.JPG - Tự tin: 99.42%

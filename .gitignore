@@ -1,0 +1,71 @@
+# =========================
+# Môi trường ảo (Virtual Environments)
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Môi trường và Biến cục bộ (Environment variables)
+# =========================
+.env
+.env.local
+
+# =========================
+# File biên dịch và Cache của Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Công cụ quản lý gói và build (Distribution / Packaging)
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# =========================
+# Testing và Coverage
+# =========================
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# =========================
+# Jupyter Notebook (Nếu bạn có làm việc với dữ liệu/mô hình)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Cấu hình IDE / Trình soạn thảo (IDE / Editor files)
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# File hệ thống (OS generated files)
+# =========================
+.DS_Store
+Thumbs.db
+
+# Bỏ qua dataset
+dataset_healthy_diseases/
+goc_new_plant_diseases_dataset_augmented/
+goc_plant_doc_dataset/
+goc_plant_leaves/
+goc_plant_village/
+plant_leaves_binary_224/
+plant_leaves_new/
+
+models/
+*.keras
+*.h5
+*.pt
