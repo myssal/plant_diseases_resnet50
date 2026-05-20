@@ -6,7 +6,7 @@ import file_manager as fm
 from app_config import DEVICE, TRANSFORM, CLASS_NAMES
 
 class PlantDetector:
-    def __init__(self, model_name='best_resnet_plant.pth'):
+    def __init__(self, model_name='best_resnet50_cassava.pth'):
         self.model_name = model_name
         self.model = None
 
@@ -20,13 +20,14 @@ class PlantDetector:
             # resnet50 reconstruct
             self.model = models.resnet50(weights=None)
             num_ftrs = self.model.fc.in_features
-            self.model.fc = nn.Linear(num_ftrs, 38)
+            self.model.fc = nn.Linear(num_ftrs, len(CLASS_NAMES))
             
             # weight loading
             self.model.load_state_dict(torch.load(model_path, map_location=DEVICE))
             self.model = self.model.to(DEVICE)
             self.model.eval()
             return True
+
         except Exception as e:
             print(f"Error loading model: {e}")
             return False
